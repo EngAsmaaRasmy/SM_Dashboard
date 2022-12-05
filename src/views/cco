@@ -1,0 +1,44 @@
+ let permissions = response.data.data.role.permissions;
+            let permissions_list = [];
+            permissions.forEach(function (permission) {          
+              let perm = permission.route;
+              if(perm)
+                permissions_list.push(perm);
+            });
+            localStorage.permissions_list = permissions_list;
+            
+            let token = response.data.data.token.split("|");
+            localStorage.token = token[1];
+
+            this.$http.defaults.headers.common['Authorization'] = 'Bearer ' + localStorage.token;
+            
+            this.$router.push({ name: "الرئيسة" });
+          } else {
+            swal({ title: response.data.message, buttons: "تم" });
+          }
+         })
+          .catch(function (error) {
+            $(".loadingio-spinner-blocks-7d0iqc5a70p").hide();
+            $(".ldio-rl19x8g8tu").hide();
+            
+            if (error.hasOwnProperty("response")) {
+              let data = (error.response || {}).data;
+              if (data.error) {
+                swal({ title: data.message, buttons: "تم" });
+              } else {
+                swal({
+                  title: "حدث خطـأ اثناء معالجة الطلب الرجاء المحاولة لاحقا",
+                  buttons: "تم",
+                });
+              }
+            } else {
+              swal({
+                title: "حدث خطـأ اثناء معالجة الطلب الرجاء المحاولة لاحقا",
+                buttons: "تم",
+              });
+            }
+          });
+    },
+  },
+};
+</script>

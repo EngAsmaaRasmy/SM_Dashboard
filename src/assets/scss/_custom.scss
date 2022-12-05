@@ -1,0 +1,191 @@
+// Here you can add other styles
+// @import "~@coreui/coreui/scss/coreui";
+.c-icon[data-v-7983366c] {
+    margin-right: 0.3rem;
+    margin-left: 6px;
+}
+html {
+    direction: rtl !important;
+}
+.mr-4, .mx-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 20px;
+}
+.vdtnet-footer .dataTables_length, .vdtnet-footer .dataTables_paginate {
+    float: left !important;
+}
+.vdtnet-footer .dataTables_length {
+    padding-top: 9px;
+    padding-left: 20px;
+}
+body{
+    font-family: 'DroidArabicKufiRegular' !important;
+    font-weight: 600 !important;
+    font-size: 17px;
+}
+.c-header-toggler-icon {
+    height: 2rem !important;
+    width: 3rem !important;
+}
+.c-sidebar .c-sidebar-nav-link:hover, .c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+    background-color: #347A1E !important;
+}
+.c-sidebar .c-sidebar-nav-link, .c-sidebar .c-sidebar-nav-dropdown-toggle 
+{
+    color: rgba(255, 255, 255, 0.8) !important;
+    background: transparent;
+}
+a:hover {
+    color: #347A1E !important;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #1f337a !important;
+    border-color: #1f337a !important;
+}
+.btn-group > .btn {
+    background-color: #347A1E !important; 
+}
+.btn-group > .btn:hover {
+    color: #347A1E !important;
+    background-color: #b9bec7 !important;
+    border-color: #b2b8c1 !important;
+}
+a {
+    color: #1f337a !important;
+}
+.filter{
+    border-color: #347A1E !important ;
+    border-radius: 30px;
+    color: #0a1438d7 !important;
+    font-size: 20px !important;
+    padding: 3px 25px !important;
+
+}
+.sub{
+    background-color: #0a1438d7 !important;
+    color: #fff !important;
+    border-radius: 40px !important;
+    border:0px !important;
+    padding: 7px 50px; 
+    margin: auto;
+}
+.sub:hover {
+    background-color: #347A1E !important;
+}
+.filter-title {
+    color: #0a1438d7 !important;
+    font-size: 15px !important;
+    margin-left: 15px !important;
+}
+table.dataTable.nowrap th {
+    background-color: #0a1438d7 !important;
+    color: #fff !important;
+}
+.h4 {
+    font-size: 3rem!important;
+    color: rgba(65.0, 75.0, 109.0, 1.0) !important;
+    font-weight: 700!important;
+    font-family: Montserrat,sans-serif;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0a1438d7 !important;
+    border-color: #0a1438d7 !important;
+    border-radius: 3px;
+}
+.btn:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+.text-white .text-muted {
+    color: 	rgba(73.0, 60.0, 17.0, 1.0) !important;
+}
+.progress-bar {
+    background-color: rgba(65.0, 75.0, 109.0, 1.0) !important;
+}
+.progress.progress-white {
+    background-color: rgb(226, 215, 181);
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    // padding: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.btn-primaryadd {
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    background-color: rgb(30, 122, 100);
+    border-color: rgb(30, 122, 100);
+}
+.btn-group > .btn, .btn-group-vertical > .btn {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    padding: 13px;
+    flex: 1 1 auto;
+}
+
+
+.dataTables_length {
+    direction: rtl !important;
+    text-align: left;
+}
+.dataTables{text-align: center;}
+.col-md-7 {
+    -webkit-box-flex: 0;
+    text-align: left;
+    -ms-flex: 0 0 58.33333%;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+.titel-style{
+    background: #4B5b94;
+    font-size: 18px;
+    width: 100%;
+}
+
+.dataTables_info {
+    color: #4B5b94;
+    padding: 6px;
+    font-size: 18px;
+    align-items: right;
+}
+label {
+    display: inline-flex;
+    margin-bottom: 0.5rem;
+    font-size: 17px;
+    font-weight: bold;
+}
+.form-control-sm {
+    height: calc(1.5em + 0.5rem + 2px);
+    padding: 0.25rem 0.5rem;
+    font-size: 0.76563rem;
+    line-height: 1.5;
+    margin: 0px 5px 0px 5px;
+    border-radius: 0.2rem;
+}
+*[dir="rtl"] .custom-select-sm {
+    padding-right: 0.5rem;
+    direction: ltr;
+}
+.ps--active-x>.ps__rail-x, .ps--active-y>.ps__rail-y {
+    display: block;
+    background-color: transparent;
+    left: 0px;
+}
+.ps__rail-y{
+    left: 0px!important;
+}
+.swal-footer {
+    text-align: left;
+    padding-top: 13px;
+    margin-top: 13px;
+    padding: 13px 16px;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
